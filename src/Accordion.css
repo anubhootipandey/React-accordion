@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: teal;
+    color: white;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    border: 2px solid white;
+  }
+  
+  .ac-card {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(3, 92, 92);
+  }
+  
+  .header {
+    display: flex;
+    width: 40rem;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    display: flex;
+    width: 50rem;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  p.card-info {
+    padding: 20px 0;
+    width: 30rem;
+    line-height: 1.3;
+  }
